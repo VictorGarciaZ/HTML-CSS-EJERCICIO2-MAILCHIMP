@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="logomono">
+        <img class="logomono" src="https://cdn2.hubspot.net/hubfs/521324/App-Icon-1200x1200-mailchimp.png" alt="">
+    </div>
+    <!--  -->
+    <main class="main">
+        <div>
+            <h2 class="welcome">Welcome to Mailchimp</h2>
+            <p>Find your people. Engage your customers. Build your brand. Do it all with Maichimp's Marketing Platform.
+                Already have an account? <span class="title-blue1">Log in</span></p>
+            <form class="cuestionario">
+                <div class="Email">
+                    <label for="mail"></label>
+                    <p>Email</p>
+                    <input class="emailinput" id="mail" type="mail">
+                </div>
+                <div class="Username">
+                    <label for="name"></label>
+                    <p>Username</p>
+                    <input class="userinput" id="name" type="text">
+                </div>
+                <div class="Passw">
+                    <label for="password"></label>
+                    <p>Password <img class="ojo" src="https://cdn.pixabay.com/photo/2017/06/09/18/06/eye-2387853_1280.png"><span class="title-blue1">Show</span></p>
+                    <input class="passwinput" id="password" type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                        required />
+                </div>
+            </form>
+        </div>
+        <div class="formatoTexto1">
+            <ul class="formatoTexto1">
+                <li>One lowercase character</li>
+                <li>One uppercase character</li>
+                <li>One number</li>
+            </ul>
+        </div>
+        <div class="formatoTexto2">
+            <ul class="formatoTexto2">
+                <li>One special character</li>
+                <li>8 character minimun</li>
+            </ul>
+        </div>
+        <div>
+            <input class="boton" type="button" value="Sign up">
+        </div>
+        <div>
+            <input class="checkbox" type="checkbox">I don't want to receive emails about new Mailchimp products,
+            best
+            practices, or
+            special offers.
+        <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Maichimp's <span class="title-blue2">Terms of Use</span> and <span class="title-blue2">Privacy Policy.</span></p>
+        </div>
+    </main>
+</body>
+
+</html>

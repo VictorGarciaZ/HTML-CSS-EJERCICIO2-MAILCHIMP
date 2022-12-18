@@ -1,0 +1,82 @@
+img {
+    width: 150px;
+}
+
+.title-blue1{
+    color: rgb(67, 136, 138);
+}
+.title-blue2 {
+    color: rgb(67, 136, 138);
+    text-decoration: underline;
+}
+
+.logomono {
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+}
+
+.main {
+    display: inline-block;
+    width: 470px;
+    height: 200px;
+}
+
+.welcome {
+    font-family: 'Times New Roman', Times, serif;
+}
+.cuestionario{
+    width:100%;
+}
+.Email {
+    font-weight: bolder;
+}
+.emailinput{
+    width: 100%;
+    height: 30px;
+}
+.Username {
+    font-weight: bolder;
+}
+.userinput{
+    width: 100%;
+    height: 30px;
+}
+.Passw {display:inline;
+    font-weight: bolder;
+}
+.ojo{display:inline-block;
+    filter:grayscale(100%);
+    padding-left: 70%;
+    width: 30px;
+    height: 30px;
+}
+.passwinput{display:inline-block;
+    width: 100%;
+    height: 30px;
+}
+.formatoTexto1 {display:inline-table;
+    text-align: left;
+
+}
+.formatoTexto1::before{
+    content:
+}
+
+.formatoTexto2 {display:inline-table;
+    text-align: left;
+
+}
+
+.boton {display:inline-block;
+    opacity: 50%;
+    font-size:xx-large;
+    width: 40%;
+    height: 30px;
+}
+.checkbox{display:inline-block;
+}
